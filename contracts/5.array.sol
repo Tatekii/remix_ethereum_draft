@@ -33,11 +33,11 @@ contract MyDraft {
     }
 
     // 在 memory 中创建一个固定长度的数组，并返回
-    function createMemoryArray() public pure returns (uint[] memory) {
-        uint[] memory arr;
-        arr.push(1);  // 设置数组元素
-        arr.push(2);  // 设置数组元素
-        arr.push(3);  // 设置数组元素
-        return arr;  // 返回 memory 中的数组
-    }
+    // function createMemoryArray() public pure returns (uint[] memory) {
+    //     uint[] memory arr;
+    //     arr.push(1);  // 设置数组元素
+    //     arr.push(2);  // 设置数组元素
+    //     arr.push(3);  // 设置数组元素
+    //     return arr;  // 返回 memory 中的数组
+    // }
 }

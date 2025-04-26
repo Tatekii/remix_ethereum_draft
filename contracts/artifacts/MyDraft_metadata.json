@@ -7,12 +7,24 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getStorageArray",
+				"name": "initStudent1",
 				"outputs": [
 					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct MyDraft.Student",
+						"name": "_student",
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -20,64 +32,23 @@
 			},
 			{
 				"inputs": [],
-				"name": "getStorageArrayLength",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pushToStorage",
+				"name": "initStudent2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "run",
-				"outputs": [
-					{
-						"internalType": "bytes1[3]",
-						"name": "array1",
-						"type": "bytes1[3]"
-					},
-					{
-						"internalType": "bytes",
-						"name": "array3",
-						"type": "bytes"
-					},
-					{
-						"internalType": "bytes",
-						"name": "array4",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
+				"name": "initStudent3",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "storageArray",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"inputs": [],
+				"name": "initStudent4",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -94,7 +65,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/5.array.sol": "MyDraft"
+			"contracts/6.struct.sol": "MyDraft"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -108,12 +79,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/5.array.sol": {
-			"keccak256": "0xbca641dab68d4803aacae103cd7a1afb65c70cd02c180a1a3b0736165655ea0d",
+		"contracts/6.struct.sol": {
+			"keccak256": "0x0a825beac670640f1ca9f93469b8dfb72b3682e7c185fd141e7528d8016a2e3f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8d3e1d7c8941e619e9848dd41b546fd206d47e1bc5a43dba784a707dc084c939",
-				"dweb:/ipfs/QmWxiMbwZcsZ5fiVY43UNdHVaNEBpecHUp2sWTk49M34Jx"
+				"bzz-raw://7105f08e62c779e54146de91328e36c0e97f1606f94aabd53c12ec991cefb28d",
+				"dweb:/ipfs/QmUn9MzrMfFkCKf5FqWqgbYYiMkcXGKniFrMqXjkmKwyy4"
 			]
 		}
 	},
